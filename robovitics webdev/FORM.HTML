@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="./style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="heading">
+        Registration Form
+    </div>
+
+    <div>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+        
+
+            <label for="languages">languages:</label><br>
+            <input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">english</label><br>
+            <input type="checkbox" id="hindi" name="languages" value="hindi">
+            <label for="hindi">hindi</label><br>
+            <input type="checkbox" id="french" name="languages" value="french">
+            <label for="french">french</label><br>
+
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="india">india</option>
+                <option value="Canada">Canada</option>
+                <option value="nepal">nepal</option>
+                <option value="Australia">Australia</option>
+            </select><br>
+
+            <label for="questions">questions:</label><br>
+            <textarea id="questions" name="questions" cols="30" rows="5"></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

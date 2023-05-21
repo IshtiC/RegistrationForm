@@ -1,0 +1,54 @@
+.heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c43f17;
+  }
+  
+  /* Apply general styling to the form elements */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eeaae1;
+    padding: 20px;
+  }
+  
+  
